@@ -1,0 +1,56 @@
+body{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+  }
+  
+  #container{
+    width:100%;
+    background:#3498db;
+    margin:12px auto;
+    overflow:auto;
+    padding:25px;
+  }
+  
+   
+    button{
+    width:100px;
+    height:40px;
+    background:#e67e22;
+    color:#ecf0f1;
+  }
+  
+  
+  section{
+    min-height:400px;
+  }
+  
+  footer{
+    margin-top:20px;
+    text-align:center;
+  }
+  #submitInput{
+    text-align:center;
+    margin:10px auto;
+  }
+  #restart, #submitInput input[type="submit"]{
+    background:#e67e22;
+    color:#ecf0f1;
+    padding:10px 15px;
+    border:0;
+    cursor:pointer;
+  }
+  
+  #results h3{
+    background:#e67e22;
+    margin:10px 0;
+    padding:10px;
+  }
+  
+ 
+
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    
+  }

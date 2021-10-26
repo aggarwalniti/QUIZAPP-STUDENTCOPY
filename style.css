@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  
+  
+div{
+  margin-top: 50px;
+}
+
+#username{
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+#codingpic,#mathpic{
+  width: 40%;
+  height:40%;
+  margin: auto;
+}
+
+
+#p,#n{
+  color:white ;
+  background-color:rgb(216, 20, 206);
+  text-align:center;
+  width: 80px;
+  height:50px;
+  text-align: center;
+  margin:100px;
+  border-radius:20px;
+}
+
+
+
+#logout{
+  
+ /*Add Float*/
+
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  width:100px! important;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
